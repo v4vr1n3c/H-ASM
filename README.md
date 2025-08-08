@@ -1,8 +1,6 @@
 # H-ASM
 H-ASM (Healthcare Attack Surface Management)
 
-# ASM-Healthcare — MVP
-
 > **Plataforma de Attack Surface Management (ASM)** focada em instituições de **healthcare**. Este repositório contém o **MVP técnico**, arquitetura, backlog ágil e toda a documentação necessária para publicar no GitHub e iniciar desenvolvimento.
 
 ---
@@ -28,7 +26,18 @@ H-ASM (Healthcare Attack Surface Management)
 
 # 1. Visão Geral
 
-Plataforma open-source para descoberta, enriquecimento, correlação e priorização de riscos relacionados à superfície de ataque de instituições de saúde. O MVP oferece descoberta automatizada a partir de um domínio raiz, enriquecimento por APIs públicas, scanner de vulnerabilidades leve, correlação com dados de AD (importados) e visualização básica via frontend.
+Plataforma para descoberta, enriquecimento, correlação e priorização de riscos relacionados à superfície de ataque de instituições de saúde. O MVP oferece descoberta automatizada a partir de um domínio raiz, enriquecimento por APIs públicas, scanner de vulnerabilidades leve, correlação com dados de AD (importados) e visualização básica via frontend.
+O objetivo é criar uma plataforma ASM (Attack Surface Management) Open Source para Healthcare. A plataforma vai automatizar a descoberta, o enriquecimento, a análise de vulnerabilidades e a correlação de riscos, tanto externos quanto internos, para instituições de saúde. O foco principal é a proteção de dados sensíveis (PHI/PII) e a garantia da continuidade operacional.
+
+Principais Módulos da Plataforma:
+
+* Módulo de Descoberta: Automatizar a coleta de ativos a partir de um domínio raiz.
+* Módulo de Enriquecimento: Integrar com fontes de dados externas para enriquecer as informações dos ativos.
+* Módulo de Análise e Pontuação: Avaliar vulnerabilidades e riscos com base em diversos critérios, incluindo o contexto clínico.
+* Módulo de Análise Interna: Correlacionar dados de segurança interna, focando em riscos do Active Directory (AD).
+* Módulo de Visualização: Oferecer dashboards interativos para uma visão estratégica dos riscos.
+* Módulo de Integração: Permitir a exportação de dados e a integração com outras ferramentas de segurança.
+
 
 Objetivos imediatos do MVP:
 
