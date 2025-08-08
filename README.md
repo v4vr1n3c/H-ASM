@@ -1,7 +1,7 @@
 # H-ASM
 H-ASM (Healthcare Attack Surface Management)
 
-# ASM-Healthcare — MVP (Open Source)
+# ASM-Healthcare — MVP
 
 > **Plataforma de Attack Surface Management (ASM)** focada em instituições de **healthcare**. Este repositório contém o **MVP técnico**, arquitetura, backlog ágil e toda a documentação necessária para publicar no GitHub e iniciar desenvolvimento.
 
