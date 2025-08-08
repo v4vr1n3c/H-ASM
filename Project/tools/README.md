@@ -1,0 +1,1 @@
+# Place supporting tools/templates here (nuclei templates, etc.)
